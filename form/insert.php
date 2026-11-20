@@ -7,6 +7,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $name= $_POST['name'];
     $email= $_POST['email'];
     $age= $_POST['age']; 
+    $age= $_POST['age']; 
     //['age'] same hona chahiye wahi jo index.html mein id mein define hai
     //for example:we give name ali so it stores in name
     //in 3 variables mein form se data mangwaya hai
