@@ -27,4 +27,14 @@ else{
 //close the database connection
 $conn->close();
 
+
+if($conn->query($sql)=== TRUE){// query(sql) ek derived peoperty hai $conn ek object hai jo hamne db mein banaya tha jismein mysqli ki 4ron cheezin pass hain tu java mein hum $conn.query($sql) likhte yahan ham arrow dete hain tu access derived things builtin
+    echo "<h2> Students Registered successfully!</h2>";
+    echo "<p><a href='index.html'> Go back </a></p>";
+}
+else{
+    echo "error : ".$sql . "<br>" . $conn->error;
+}
+
+
 ?>
