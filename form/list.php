@@ -6,6 +6,11 @@ $result= $conn->query($sql);  //assigning to result variable, connection wale va
 //query ka output variable ke andar store karwadia
 ?>
 
+
+$sql= "SELECT * from students";
+$result= $conn->query($sql);  //assigning to result variable, connection wale variable mein mysql ka connection hai jo bhi query select ki execute karke layegi woh result ke variable mein store hojaegi
+//query ka output variable ke andar store karwadia
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
